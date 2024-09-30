@@ -1,0 +1,22 @@
+{
+  "name": "verify-site-routes",
+  "description": "Verify site pages",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cli": "tsx src/cli.ts"
+  },
+  "keywords": [],
+  "author": "tknickman",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jsdom": "^21.1.7",
+    "tsx": "^4.19.1"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "jsdom": "^25.0.1",
+    "node-fetch": "^3.3.2",
+    "xml2js": "^0.6.2"
+  }
+}
